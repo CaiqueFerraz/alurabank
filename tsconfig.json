@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        "target": "es6",//passando para ecma6
+        "outDir": "app/js",//criando os arquivos de saida nessa pasta
+        "noEmitOnError": true,
+        "noImplicitAny": true
+    },
+    "include": [
+        "app/ts/**/*"//a partir dessa pasta e subpastas
+    ]
+}
